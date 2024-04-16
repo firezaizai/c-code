@@ -7,7 +7,7 @@ int main()
 	int l=1，r=1e9;
 	while(l<r)
 	{
-		在in mid=(l+r)/2;
+		int mid=(l+r)/2;
 		if(mid<a) l=mid+1;
 		else r=mid;
 	}
